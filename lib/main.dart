@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:google_note/screens/main_screen.dart';
+import 'package:google_note/screens/notes_screen.dart';
+import 'package:google_note/widgets/custom_icon_button.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
 debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: MainScreen(),
+      home: NotesScreen(),
     );
   }
 }
